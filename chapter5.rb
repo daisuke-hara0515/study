@@ -33,4 +33,18 @@ p "100,50,300".split(",")
 
 puts "5-6"
 
+result = [1,2,3].map do |x|
+    x * 3
+end
+p result
+
+array = ["abc","xyz"].map do |x|
+    x.reverse
+end
+p array
+
+array = ["aya","achi","Tama"].map do |x|
+    x.downcase
+end
+p array.sort
 
