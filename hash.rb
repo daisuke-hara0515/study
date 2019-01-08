@@ -1,1 +1,1 @@
-p ( {:coffee => 300, :cake => 400} )
+p ({:coffee => 300, :cake => 400} 
