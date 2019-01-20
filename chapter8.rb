@@ -49,4 +49,49 @@ end
 Item.new
 
 
+#class Item
+#    def initialize(name)
+#        @name = name
+#    end
+#    def name
+#        @name
+#    end
+#end
+
+#cake1 = Item.new("マフィン")
+#cake2 = Item.new("スコーン")
+#puts cake1.name
+#puts cake2.name
+
+puts "8-6"
+
+class Drink
+    def self.today_special
+        "ホワイトモカ"
+    end
+end
+
+puts Drink.today_special
+
+puts "8-7"
+
+class Item
+    def name
+        @name
+    end
+    def name=(text)
+        @name = text
+    end
+end
+
+class Food < Item
+end
+
+food = Food.new
+food.name = "チーズケーキ"
+puts food.name
+
+
+
+
 
