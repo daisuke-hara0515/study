@@ -25,10 +25,28 @@ p item.name
 
 puts "8-4"
 
+class Item
+    def name=(item)
+        @name = item
+    end
+    def name
+        @name
+    end
+end
 
+cake = Item.new
+puts cake.name=("チーズケーキ")
+puts cake.name
 
+puts "8-5"
 
+class Item
+    def initialize 
+    puts "商品を扱うオブジェクト"
+    end
+end
 
+Item.new
 
 
 
