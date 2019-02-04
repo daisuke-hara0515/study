@@ -54,4 +54,12 @@ number1 = [1,2]
 number2 = [2,3]
 p number1 - number2
 
+sum = 0
+x = [1,2,3]
+x.each do |y|
+   sum = sum + y
+end
+puts sum
+
+
 
