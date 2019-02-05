@@ -1,2 +1,3 @@
-file = File.open("sample.txt")
-puts file.read
+file = File.open("sample.txt","r+")
+puts file.puts file.read
+file.close
