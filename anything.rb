@@ -61,5 +61,8 @@ x.each do |y|
 end
 puts sum
 
-
+text = ["aya","achi","Tama"].map do |x|
+   x.downcase
+end
+p text.sort
 
