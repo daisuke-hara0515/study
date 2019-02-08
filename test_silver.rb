@@ -14,3 +14,5 @@ end
 s = 0xBacFace
   s += 1
   puts s
+
+p "abcdefg"[2,3]
