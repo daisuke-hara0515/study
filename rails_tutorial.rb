@@ -40,8 +40,7 @@ p (0..16).map {|i| i ** 2}
 puts "4-2-3-2"
 
 def yeller(s)
-    s.map! {|i| i.upcase }
-    p s.join
+    p s.join.upcase
 end
 
 yeller(['y','e','s'])
@@ -60,3 +59,21 @@ def string_shuffle(s)
     s.split("").shuffle.join
 end
 p string_shuffle("foobar")
+
+puts "4-3-3-1"
+
+key = {'one' => 'uno','two' => 'dos','three' => 'tres'}
+key.each {|key,value| puts "'#{key}'のスペイン語は'#{value}'" }
+
+puts "4-3-3-2"
+person1 = {:first => "ichiro",:last => "yamada" }
+person2 = {:second => "hanako",:last => "sato" }
+person3 = {:last => "daisuke",:last => "hara"}
+params = {}
+params[:father] = person1
+params[:mother] = person2
+params[:child] = person3
+p params[:father][:first]
+
+puts "4-3-3-3"
+
