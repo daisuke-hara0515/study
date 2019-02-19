@@ -45,4 +45,3 @@ class Test
 end
 
 Test.welcome
-
