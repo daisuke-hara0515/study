@@ -1,13 +1,13 @@
 class Drink
   def coffee
-    "カフェラテ"
     @name = "カフェラテ"
+    abc
   end
-  def name
-    @name
+  private
+  def abc
+    puts @name
   end
 end
 
 drink = Drink.new
-puts drink.coffee
-p drink.name
+drink.coffee
